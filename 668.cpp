@@ -11,8 +11,8 @@ class Solution
 public:
     static int Get(const int&x,const int&m,const int&n)
     {
-        int root=sqrt(x),sum=0;
-        for(int i=1;i<=m;i++)
+        int upper=min(x,m),sum=0;
+        for(int i=1;i<=upper;i++)
         {
             sum+=min(x/i,n);
         }
