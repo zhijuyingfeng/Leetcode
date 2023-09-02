@@ -7,6 +7,7 @@ class Solution {
         }
         return ans;
     }
+    
     public static List<Integer> pathInZigZagTree(int label) {
         LinkedList<Integer> ans = new LinkedList<>();
         while (label > 0) {
